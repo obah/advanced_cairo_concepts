@@ -35,7 +35,4 @@ fn main() {
     let cart_box = BoxTrait::new(Cart { paid: true, items: 10, buyer: "Olori" });
     pass_pointer(cart_box);
 }
-//this implementation throws an error becuase of it's infinite size in the recursion.
-//to fix this, we use a box
-
 
